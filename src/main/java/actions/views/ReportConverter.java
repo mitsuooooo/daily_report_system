@@ -68,7 +68,7 @@ public class ReportConverter {
      * @param r DTOモデル(コピー先)
      * @param rv Viewモデル(コピー元)
      */
-    public static void copyViewToNodel(Report r, ReportView rv) {
+    public static void copyViewToModel(Report r, ReportView rv) {
         r.setId(rv.getId());
         r.setEmployee(EmployeeConverter.toModel(rv.getEmployee()));
         r.setReportDate(rv.getReportDate());
