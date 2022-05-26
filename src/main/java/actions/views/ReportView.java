@@ -53,4 +53,8 @@ public class ReportView {
      */
     private LocalDateTime updatedAt;
 
+    /**
+     * いいね数
+     */
+    private Integer likeCount;
 }
